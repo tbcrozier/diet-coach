@@ -1,0 +1,29 @@
+# Python virtual environment
+.venv/
+
+# Environment variables / secrets
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Logs or output
+*.log
+*.out
+
+# Other personal or generated data
+*.sqlite3
+*.db
+*.csv
+*.json
