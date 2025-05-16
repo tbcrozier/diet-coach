@@ -4,7 +4,7 @@
 Diet Coach is a Python-based tool that uses a local LLM (via Ollama) to estimate the nutritional content of freeform meal descriptions and logs them to Google BigQuery for long-term tracking and analysis.
 
 ✅ Features
-🧠 Uses a local LLM (LLaMA 2 via Ollama) — no API keys required
+🧠 Uses a local LLM (LLaMA 2 via Ollama - https://github.com/ollama/ollama/blob/main/README.md#quickstart) — no API keys required
 
 🍽️ Accepts freeform meal descriptions like:
 "3 scrambled eggs with toast and a banana"
@@ -14,13 +14,9 @@ Diet Coach is a Python-based tool that uses a local LLM (via Ollama) to estimate
 📦 Saves meal data to BigQuery, including:
 
 User ID
-
 Timestamp
-
 Original meal text
-
 Parsed nutrition data
-
 Raw LLM response (for traceability)
 
 📈 Enables analytics over time (e.g., daily nutrient totals)
@@ -35,3 +31,9 @@ protein_g	FLOAT	Estimated protein (grams)
 carbs_g	FLOAT	Estimated carbs (grams)
 fat_g	FLOAT	Estimated fat (grams)
 raw_response	STRING	Full LLM response text
+
+
+### Incorporating Streamlit for temporary user interface
+![alt text](image.png)
+
+![alt text](image-1.png)
