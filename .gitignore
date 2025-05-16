@@ -1,5 +1,7 @@
 # Python virtual environment
 .venv/
+*.pyc
+__pycache__/
 
 # Environment variables / secrets
 .env
@@ -27,3 +29,4 @@ __pycache__/
 *.db
 *.csv
 *.json
+
